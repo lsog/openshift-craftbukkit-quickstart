@@ -7,6 +7,6 @@ set -x
 cd $OPENSHIFT_DATA_DIR
 
 if [ ! -e "$CRAFTBUKKIT_SERVER_JAR" ]; then
-	wget "http://download772.mediafire.com/dgeedrwzvcsg/10s6fhdmdw61orm/craftbukkit.jar" -O $CRAFTBUKKIT_SERVER_JAR
+	wget "https://s3.amazonaws.com/MinecraftDownload/launcher/minecraft_server.jar" -O $CRAFTBUKKIT_SERVER_JAR
 fi
 
